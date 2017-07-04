@@ -29,6 +29,15 @@ namespace calculator
             textBox3.Text = result.ToString();
             
         }
+        private void buttonClickOneArg(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+           
+            ICanculator2 calculator = Factory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstArgument);
 
+            textBox3.Text = result.ToString();
+
+        }
     }
 }
