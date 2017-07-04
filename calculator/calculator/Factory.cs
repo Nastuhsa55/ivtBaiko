@@ -14,7 +14,8 @@ namespace calculator
             {
                 case "button5":
                     return new Sinus();
-
+                case "button6":
+                    return new Logarithm();
                 default:
                     throw new Exception();
             }

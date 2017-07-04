@@ -36,6 +36,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -103,11 +104,21 @@
             // 
             this.button5.Location = new System.Drawing.Point(164, 130);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(65, 19);
+            this.button5.Size = new System.Drawing.Size(44, 19);
             this.button5.TabIndex = 7;
             this.button5.Text = "sin";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(216, 130);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(46, 23);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "log";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
             // Form1
             // 
@@ -115,6 +126,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -141,6 +153,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
