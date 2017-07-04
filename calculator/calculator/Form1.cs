@@ -17,36 +17,33 @@ namespace calculator
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double first_argument = Convert.ToDouble(textBox1.Text);
-            double second_argument= Convert.ToDouble(textBox2.Text);
-           double result = first_argument + second_argument;
-            textBox3.Text = result.ToString();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+       
+        
+        private void buttonClick(object sender, EventArgs e)
         {
             double first_argument = Convert.ToDouble(textBox1.Text);
             double second_argument = Convert.ToDouble(textBox2.Text);
-            double result = first_argument - second_argument;
-            textBox3.Text = result.ToString();
-        }
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "button1":
+                    result = first_argument + second_argument;
+                    break;
+                case "button2":
+                    result = first_argument - second_argument;
+                    break;
+                case "button3":
+                    result = first_argument * second_argument;
+                    break;
+                case "button4":
+                    result = first_argument / second_argument;
+                    break;
+                default:
+                    throw new Exception ();
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            double first_argument = Convert.ToDouble(textBox1.Text);
-            double second_argument = Convert.ToDouble(textBox2.Text);
-            double result = first_argument * second_argument;
+            }
             textBox3.Text = result.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double first_argument = Convert.ToDouble(textBox1.Text);
-            double second_argument = Convert.ToDouble(textBox2.Text);
-            double result = first_argument / second_argument;
-            textBox3.Text = result.ToString();
+            
         }
     }
 }
