@@ -21,29 +21,14 @@ namespace calculator
         
         private void buttonClick(object sender, EventArgs e)
         {
-            double first_argument = Convert.ToDouble(textBox1.Text);
-            double second_argument = Convert.ToDouble(textBox2.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "button1":
-                    result = first_argument + second_argument;
-                    break;
-                case "button2":
-                    result = first_argument - second_argument;
-                    break;
-                case "button3":
-                    result = first_argument * second_argument;
-                    break;
-                case "button4":
-                    result = first_argument / second_argument;
-                    break;
-                default:
-                    throw new Exception ();
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            ICalculator calculator = CalculatorFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstArgument, secondArgument);
 
-            }
             textBox3.Text = result.ToString();
             
         }
+
     }
 }
