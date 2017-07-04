@@ -24,5 +24,13 @@ namespace calculator
            double result = first_argument + second_argument;
             textBox3.Text = result.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double first_argument = Convert.ToDouble(textBox1.Text);
+            double second_argument = Convert.ToDouble(textBox2.Text);
+            double result = first_argument - second_argument;
+            textBox3.Text = result.ToString();
+        }
     }
 }
