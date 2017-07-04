@@ -18,6 +18,10 @@ namespace calculator
                     return new Logarithm();
                 case "button7":
                     return new TwoToThePowerOf();
+                case "button8":
+                    return new XToThePowerOfTwo();
+                case "button9":
+                    return new Square();
                 default:
                     throw new Exception();
             }
