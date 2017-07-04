@@ -16,6 +16,8 @@ namespace calculator
                     return new Sinus();
                 case "button6":
                     return new Logarithm();
+                case "button7":
+                    return new TwoToThePowerOf();
                 default:
                     throw new Exception();
             }
