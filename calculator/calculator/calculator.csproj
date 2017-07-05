@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Cosinus.cs" />
     <Compile Include="TwoArgument\RemainderOfTheDivision.cs" />
     <Compile Include="TwoArgument\Addition.cs" />
     <Compile Include="OneArgument\Factory.cs" />

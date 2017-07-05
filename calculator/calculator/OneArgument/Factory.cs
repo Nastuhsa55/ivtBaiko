@@ -1,4 +1,5 @@
-﻿using System;
+﻿using calculator.OneArgument;
+using System;
 
 namespace calculator
 {
@@ -18,6 +19,8 @@ namespace calculator
                     return new XToThePowerOfTwo();
                 case "Square":
                     return new Square();
+                case "Cosinus":
+                    return new Cosinus();
                 default:
                     throw new Exception();
             }

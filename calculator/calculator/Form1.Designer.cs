@@ -41,6 +41,7 @@
             this.XToThePowerOfTwo = new System.Windows.Forms.Button();
             this.Square = new System.Windows.Forms.Button();
             this.RemainderOfTheDivision = new System.Windows.Forms.Button();
+            this.Cosinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // plus
@@ -174,12 +175,24 @@
             this.RemainderOfTheDivision.UseVisualStyleBackColor = false;
             this.RemainderOfTheDivision.Click += new System.EventHandler(this.buttonClick);
             // 
+            // Cosinus
+            // 
+            this.Cosinus.BackColor = System.Drawing.Color.Yellow;
+            this.Cosinus.Location = new System.Drawing.Point(123, 220);
+            this.Cosinus.Name = "Cosinus";
+            this.Cosinus.Size = new System.Drawing.Size(66, 23);
+            this.Cosinus.TabIndex = 13;
+            this.Cosinus.Text = "cos";
+            this.Cosinus.UseVisualStyleBackColor = false;
+            this.Cosinus.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.RemainderOfTheDivision);
             this.Controls.Add(this.Square);
             this.Controls.Add(this.XToThePowerOfTwo);
@@ -216,6 +229,7 @@
         private System.Windows.Forms.Button XToThePowerOfTwo;
         private System.Windows.Forms.Button Square;
         private System.Windows.Forms.Button RemainderOfTheDivision;
+        private System.Windows.Forms.Button Cosinus;
     }
 }
 
