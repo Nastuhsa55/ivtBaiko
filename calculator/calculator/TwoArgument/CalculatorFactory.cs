@@ -19,7 +19,8 @@ namespace calculator
 
                 case "division":
                     return new Division();
-
+                case "RemainderOfTheDivision":
+                    return new RemainderOfTheDivision ();
                 default:
                     throw new Exception();
             }

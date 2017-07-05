@@ -40,6 +40,7 @@
             this.TwoToThePowerOf = new System.Windows.Forms.Button();
             this.XToThePowerOfTwo = new System.Windows.Forms.Button();
             this.Square = new System.Windows.Forms.Button();
+            this.RemainderOfTheDivision = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // plus
@@ -162,12 +163,24 @@
             this.Square.UseVisualStyleBackColor = false;
             this.Square.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
+            // RemainderOfTheDivision
+            // 
+            this.RemainderOfTheDivision.BackColor = System.Drawing.Color.Yellow;
+            this.RemainderOfTheDivision.Location = new System.Drawing.Point(41, 220);
+            this.RemainderOfTheDivision.Name = "RemainderOfTheDivision";
+            this.RemainderOfTheDivision.Size = new System.Drawing.Size(63, 23);
+            this.RemainderOfTheDivision.TabIndex = 12;
+            this.RemainderOfTheDivision.Text = "%";
+            this.RemainderOfTheDivision.UseVisualStyleBackColor = false;
+            this.RemainderOfTheDivision.Click += new System.EventHandler(this.buttonClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.RemainderOfTheDivision);
             this.Controls.Add(this.Square);
             this.Controls.Add(this.XToThePowerOfTwo);
             this.Controls.Add(this.TwoToThePowerOf);
@@ -202,6 +215,7 @@
         private System.Windows.Forms.Button TwoToThePowerOf;
         private System.Windows.Forms.Button XToThePowerOfTwo;
         private System.Windows.Forms.Button Square;
+        private System.Windows.Forms.Button RemainderOfTheDivision;
     }
 }
 
