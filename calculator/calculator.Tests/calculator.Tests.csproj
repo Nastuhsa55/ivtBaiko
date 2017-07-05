@@ -47,6 +47,7 @@
     <Compile Include="AdditionTestNew.cs" />
     <Compile Include="DivisionTestNew.cs" />
     <Compile Include="DivisionTests.cs" />
+    <Compile Include="FactoryTest.cs" />
     <Compile Include="MultiplicationTest.cs" />
     <Compile Include="MultiplicationTestNew.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
