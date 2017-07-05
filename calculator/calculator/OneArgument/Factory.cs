@@ -12,15 +12,15 @@ namespace calculator
         {
             switch (name)
             {
-                case "button5":
+                case "sinus":
                     return new Sinus();
-                case "button6":
+                case "logarithm":
                     return new Logarithm();
-                case "button7":
+                case "TwoToThePowerOf":
                     return new TwoToThePowerOf();
-                case "button8":
+                case "XToThePowerOfTwo":
                     return new XToThePowerOfTwo();
-                case "button9":
+                case "Square":
                     return new Square();
                 default:
                     throw new Exception();

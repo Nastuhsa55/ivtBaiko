@@ -28,63 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.plus = new System.Windows.Forms.Button();
+            this.minus = new System.Windows.Forms.Button();
+            this.multiplication = new System.Windows.Forms.Button();
+            this.division = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.sinus = new System.Windows.Forms.Button();
+            this.logarithm = new System.Windows.Forms.Button();
+            this.TwoToThePowerOf = new System.Windows.Forms.Button();
+            this.XToThePowerOfTwo = new System.Windows.Forms.Button();
+            this.Square = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // plus
             // 
-            this.button1.BackColor = System.Drawing.Color.Yellow;
-            this.button1.Location = new System.Drawing.Point(123, 159);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(66, 26);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.buttonClick);
+            this.plus.BackColor = System.Drawing.Color.Yellow;
+            this.plus.Location = new System.Drawing.Point(123, 159);
+            this.plus.Name = "plus";
+            this.plus.Size = new System.Drawing.Size(66, 26);
+            this.plus.TabIndex = 0;
+            this.plus.Text = "+";
+            this.plus.UseVisualStyleBackColor = false;
+            this.plus.Click += new System.EventHandler(this.buttonClick);
             // 
-            // button2
+            // minus
             // 
-            this.button2.BackColor = System.Drawing.Color.Yellow;
-            this.button2.Location = new System.Drawing.Point(123, 191);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(66, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.buttonClick);
+            this.minus.BackColor = System.Drawing.Color.Yellow;
+            this.minus.Location = new System.Drawing.Point(123, 191);
+            this.minus.Name = "minus";
+            this.minus.Size = new System.Drawing.Size(66, 23);
+            this.minus.TabIndex = 1;
+            this.minus.Text = "-";
+            this.minus.UseVisualStyleBackColor = false;
+            this.minus.Click += new System.EventHandler(this.buttonClick);
             // 
-            // button3
+            // multiplication
             // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
-            this.button3.Location = new System.Drawing.Point(199, 159);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(63, 26);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "*";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.buttonClick);
+            this.multiplication.BackColor = System.Drawing.Color.Yellow;
+            this.multiplication.Location = new System.Drawing.Point(199, 159);
+            this.multiplication.Name = "multiplication";
+            this.multiplication.Size = new System.Drawing.Size(63, 26);
+            this.multiplication.TabIndex = 2;
+            this.multiplication.Text = "*";
+            this.multiplication.UseVisualStyleBackColor = false;
+            this.multiplication.Click += new System.EventHandler(this.buttonClick);
             // 
-            // button4
+            // division
             // 
-            this.button4.BackColor = System.Drawing.Color.Yellow;
-            this.button4.Location = new System.Drawing.Point(199, 191);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(63, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.buttonClick);
+            this.division.BackColor = System.Drawing.Color.Yellow;
+            this.division.Location = new System.Drawing.Point(199, 191);
+            this.division.Name = "division";
+            this.division.Size = new System.Drawing.Size(63, 23);
+            this.division.TabIndex = 3;
+            this.division.Text = "/";
+            this.division.UseVisualStyleBackColor = false;
+            this.division.Click += new System.EventHandler(this.buttonClick);
             // 
             // textBox1
             // 
@@ -107,60 +107,60 @@
             this.textBox3.Size = new System.Drawing.Size(221, 20);
             this.textBox3.TabIndex = 6;
             // 
-            // button5
+            // sinus
             // 
-            this.button5.BackColor = System.Drawing.Color.Yellow;
-            this.button5.Location = new System.Drawing.Point(123, 128);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(66, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "sin";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.buttonClickOneArg);
+            this.sinus.BackColor = System.Drawing.Color.Yellow;
+            this.sinus.Location = new System.Drawing.Point(123, 128);
+            this.sinus.Name = "sinus";
+            this.sinus.Size = new System.Drawing.Size(66, 23);
+            this.sinus.TabIndex = 7;
+            this.sinus.Text = "sin";
+            this.sinus.UseVisualStyleBackColor = false;
+            this.sinus.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
-            // button6
+            // logarithm
             // 
-            this.button6.BackColor = System.Drawing.Color.Yellow;
-            this.button6.Location = new System.Drawing.Point(199, 128);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(63, 25);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "log";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.buttonClickOneArg);
+            this.logarithm.BackColor = System.Drawing.Color.Yellow;
+            this.logarithm.Location = new System.Drawing.Point(199, 128);
+            this.logarithm.Name = "logarithm";
+            this.logarithm.Size = new System.Drawing.Size(63, 25);
+            this.logarithm.TabIndex = 8;
+            this.logarithm.Text = "log";
+            this.logarithm.UseVisualStyleBackColor = false;
+            this.logarithm.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
-            // button7
+            // TwoToThePowerOf
             // 
-            this.button7.BackColor = System.Drawing.Color.Yellow;
-            this.button7.Location = new System.Drawing.Point(41, 128);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(63, 23);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "2^x";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.buttonClickOneArg);
+            this.TwoToThePowerOf.BackColor = System.Drawing.Color.Yellow;
+            this.TwoToThePowerOf.Location = new System.Drawing.Point(41, 128);
+            this.TwoToThePowerOf.Name = "TwoToThePowerOf";
+            this.TwoToThePowerOf.Size = new System.Drawing.Size(63, 23);
+            this.TwoToThePowerOf.TabIndex = 9;
+            this.TwoToThePowerOf.Text = "2^x";
+            this.TwoToThePowerOf.UseVisualStyleBackColor = false;
+            this.TwoToThePowerOf.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
-            // button8
+            // XToThePowerOfTwo
             // 
-            this.button8.BackColor = System.Drawing.Color.Yellow;
-            this.button8.Location = new System.Drawing.Point(41, 159);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(63, 26);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "x^2";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.buttonClickOneArg);
+            this.XToThePowerOfTwo.BackColor = System.Drawing.Color.Yellow;
+            this.XToThePowerOfTwo.Location = new System.Drawing.Point(41, 159);
+            this.XToThePowerOfTwo.Name = "XToThePowerOfTwo";
+            this.XToThePowerOfTwo.Size = new System.Drawing.Size(63, 26);
+            this.XToThePowerOfTwo.TabIndex = 10;
+            this.XToThePowerOfTwo.Text = "x^2";
+            this.XToThePowerOfTwo.UseVisualStyleBackColor = false;
+            this.XToThePowerOfTwo.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
-            // button9
+            // Square
             // 
-            this.button9.BackColor = System.Drawing.Color.Yellow;
-            this.button9.Location = new System.Drawing.Point(41, 191);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(63, 23);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "square ";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.buttonClickOneArg);
+            this.Square.BackColor = System.Drawing.Color.Yellow;
+            this.Square.Location = new System.Drawing.Point(41, 191);
+            this.Square.Name = "Square";
+            this.Square.Size = new System.Drawing.Size(63, 23);
+            this.Square.TabIndex = 11;
+            this.Square.Text = "square ";
+            this.Square.UseVisualStyleBackColor = false;
+            this.Square.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
             // Form1
             // 
@@ -168,18 +168,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.Square);
+            this.Controls.Add(this.XToThePowerOfTwo);
+            this.Controls.Add(this.TwoToThePowerOf);
+            this.Controls.Add(this.logarithm);
+            this.Controls.Add(this.sinus);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.division);
+            this.Controls.Add(this.multiplication);
+            this.Controls.Add(this.minus);
+            this.Controls.Add(this.plus);
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -190,18 +190,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button plus;
+        private System.Windows.Forms.Button minus;
+        private System.Windows.Forms.Button multiplication;
+        private System.Windows.Forms.Button division;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button sinus;
+        private System.Windows.Forms.Button logarithm;
+        private System.Windows.Forms.Button TwoToThePowerOf;
+        private System.Windows.Forms.Button XToThePowerOfTwo;
+        private System.Windows.Forms.Button Square;
     }
 }
 

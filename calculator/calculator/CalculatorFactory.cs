@@ -12,16 +12,16 @@ namespace calculator
         {
             switch (name)
             {
-                case "button1":
+                case "plus":
                     return new Addition();
 
-                case "button2":
+                case "minus":
                     return new Subtraction();
 
-                case "button3":
+                case "multiplication":
                     return new Multiplication();
 
-                case "button4":
+                case "division":
                     return new Division();
 
                 default:
