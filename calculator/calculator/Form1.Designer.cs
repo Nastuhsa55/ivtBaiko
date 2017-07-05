@@ -43,6 +43,12 @@
             this.RemainderOfTheDivision = new System.Windows.Forms.Button();
             this.Cosinus = new System.Windows.Forms.Button();
             this.Tangent = new System.Windows.Forms.Button();
+            this.ModuleOfX = new System.Windows.Forms.Button();
+            this.Arcsine = new System.Windows.Forms.Button();
+            this.Arccosine = new System.Windows.Forms.Button();
+            this.Arctangent = new System.Windows.Forms.Button();
+            this.DecimalLogarithm = new System.Windows.Forms.Button();
+            this.HyperbolicCosine = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // plus
@@ -198,12 +204,84 @@
             this.Tangent.UseVisualStyleBackColor = false;
             this.Tangent.Click += new System.EventHandler(this.buttonClickOneArg);
             // 
+            // ModuleOfX
+            // 
+            this.ModuleOfX.BackColor = System.Drawing.Color.Yellow;
+            this.ModuleOfX.Location = new System.Drawing.Point(41, 249);
+            this.ModuleOfX.Name = "ModuleOfX";
+            this.ModuleOfX.Size = new System.Drawing.Size(63, 23);
+            this.ModuleOfX.TabIndex = 15;
+            this.ModuleOfX.Text = "|x|";
+            this.ModuleOfX.UseVisualStyleBackColor = false;
+            this.ModuleOfX.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
+            // Arcsine
+            // 
+            this.Arcsine.BackColor = System.Drawing.Color.Yellow;
+            this.Arcsine.Location = new System.Drawing.Point(123, 249);
+            this.Arcsine.Name = "Arcsine";
+            this.Arcsine.Size = new System.Drawing.Size(66, 23);
+            this.Arcsine.TabIndex = 16;
+            this.Arcsine.Text = "asin";
+            this.Arcsine.UseVisualStyleBackColor = false;
+            this.Arcsine.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
+            // Arccosine
+            // 
+            this.Arccosine.BackColor = System.Drawing.Color.Yellow;
+            this.Arccosine.Location = new System.Drawing.Point(199, 249);
+            this.Arccosine.Name = "Arccosine";
+            this.Arccosine.Size = new System.Drawing.Size(63, 23);
+            this.Arccosine.TabIndex = 17;
+            this.Arccosine.Text = "acos";
+            this.Arccosine.UseVisualStyleBackColor = false;
+            this.Arccosine.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
+            // Arctangent
+            // 
+            this.Arctangent.BackColor = System.Drawing.Color.Yellow;
+            this.Arctangent.Location = new System.Drawing.Point(41, 278);
+            this.Arctangent.Name = "Arctangent";
+            this.Arctangent.Size = new System.Drawing.Size(63, 23);
+            this.Arctangent.TabIndex = 18;
+            this.Arctangent.Text = "atan";
+            this.Arctangent.UseVisualStyleBackColor = false;
+            this.Arctangent.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
+            // DecimalLogarithm
+            // 
+            this.DecimalLogarithm.BackColor = System.Drawing.Color.Yellow;
+            this.DecimalLogarithm.Location = new System.Drawing.Point(123, 278);
+            this.DecimalLogarithm.Name = "DecimalLogarithm";
+            this.DecimalLogarithm.Size = new System.Drawing.Size(66, 23);
+            this.DecimalLogarithm.TabIndex = 19;
+            this.DecimalLogarithm.Text = "log10";
+            this.DecimalLogarithm.UseVisualStyleBackColor = false;
+            this.DecimalLogarithm.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
+            // HyperbolicCosine
+            // 
+            this.HyperbolicCosine.BackColor = System.Drawing.Color.Yellow;
+            this.HyperbolicCosine.Location = new System.Drawing.Point(199, 278);
+            this.HyperbolicCosine.Name = "HyperbolicCosine";
+            this.HyperbolicCosine.Size = new System.Drawing.Size(63, 23);
+            this.HyperbolicCosine.TabIndex = 20;
+            this.HyperbolicCosine.Text = "cosh";
+            this.HyperbolicCosine.UseVisualStyleBackColor = false;
+            this.HyperbolicCosine.Click += new System.EventHandler(this.buttonClickOneArg);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(298, 326);
+            this.Controls.Add(this.HyperbolicCosine);
+            this.Controls.Add(this.DecimalLogarithm);
+            this.Controls.Add(this.Arctangent);
+            this.Controls.Add(this.Arccosine);
+            this.Controls.Add(this.Arcsine);
+            this.Controls.Add(this.ModuleOfX);
             this.Controls.Add(this.Tangent);
             this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.RemainderOfTheDivision);
@@ -244,6 +322,12 @@
         private System.Windows.Forms.Button RemainderOfTheDivision;
         private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button Tangent;
+        private System.Windows.Forms.Button ModuleOfX;
+        private System.Windows.Forms.Button Arcsine;
+        private System.Windows.Forms.Button Arccosine;
+        private System.Windows.Forms.Button Arctangent;
+        private System.Windows.Forms.Button DecimalLogarithm;
+        private System.Windows.Forms.Button HyperbolicCosine;
     }
 }
 

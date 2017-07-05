@@ -50,7 +50,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Arccosine.cs" />
+    <Compile Include="OneArgument\Arcsine.cs" />
+    <Compile Include="OneArgument\Arctangent.cs" />
     <Compile Include="OneArgument\Cosinus.cs" />
+    <Compile Include="OneArgument\DecimalLogarithm.cs" />
+    <Compile Include="OneArgument\HyperbolicCosine.cs" />
+    <Compile Include="OneArgument\ModuleOfX.cs" />
     <Compile Include="OneArgument\Tangent.cs" />
     <Compile Include="TwoArgument\RemainderOfTheDivision.cs" />
     <Compile Include="TwoArgument\Addition.cs" />

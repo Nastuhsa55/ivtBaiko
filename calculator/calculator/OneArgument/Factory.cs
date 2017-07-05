@@ -23,6 +23,18 @@ namespace calculator
                     return new Cosinus();
                 case "Tandent":
                     return new Tangent();
+                case "ModuleOfX":
+                    return new ModuleOfX();
+                case "Arcsine":
+                    return new Arcsine();
+                case "Arccosine":
+                    return new Arccosine();
+                case "Arctangent":
+                    return new Arctangent();
+                case "DecimalLogarithm":
+                    return new DecimalLogarithm();
+                case "HyperbolicCosine":
+                    return new HyperbolicCosine();
                 default:
                     throw new Exception();
             }
