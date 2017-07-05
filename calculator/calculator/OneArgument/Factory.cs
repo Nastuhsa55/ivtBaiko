@@ -21,6 +21,8 @@ namespace calculator
                     return new Square();
                 case "Cosinus":
                     return new Cosinus();
+                case "Tandent":
+                    return new Tangent();
                 default:
                     throw new Exception();
             }

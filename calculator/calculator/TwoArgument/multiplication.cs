@@ -1,6 +1,6 @@
 ﻿namespace calculator
 {
-    class Multiplication: ICalculator 
+    public class Multiplication: ICalculator 
     {
         public double Calculate (double first, double second)
         {

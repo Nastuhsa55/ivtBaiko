@@ -1,6 +1,6 @@
 ﻿namespace calculator
 {
-    class Addition : ICalculator 
+    public class Addition : ICalculator 
     {
         public double Calculate (double first,double second) 
         {
