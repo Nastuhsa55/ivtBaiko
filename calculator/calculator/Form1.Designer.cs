@@ -54,6 +54,8 @@
             // plus
             // 
             this.plus.BackColor = System.Drawing.Color.Violet;
+            this.plus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.plus.ForeColor = System.Drawing.SystemColors.ControlText;
             this.plus.Location = new System.Drawing.Point(123, 159);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(66, 26);
@@ -65,6 +67,8 @@
             // minus
             // 
             this.minus.BackColor = System.Drawing.Color.Violet;
+            this.minus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.minus.ForeColor = System.Drawing.SystemColors.ControlText;
             this.minus.Location = new System.Drawing.Point(123, 191);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(66, 23);
@@ -76,6 +80,8 @@
             // multiplication
             // 
             this.multiplication.BackColor = System.Drawing.Color.Violet;
+            this.multiplication.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.multiplication.ForeColor = System.Drawing.SystemColors.ControlText;
             this.multiplication.Location = new System.Drawing.Point(199, 159);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(63, 26);
@@ -87,6 +93,8 @@
             // division
             // 
             this.division.BackColor = System.Drawing.Color.Violet;
+            this.division.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.division.ForeColor = System.Drawing.SystemColors.ControlText;
             this.division.Location = new System.Drawing.Point(199, 191);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(63, 23);
@@ -119,7 +127,9 @@
             // sinus
             // 
             this.sinus.BackColor = System.Drawing.Color.Violet;
-            this.sinus.Location = new System.Drawing.Point(123, 128);
+            this.sinus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.sinus.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.sinus.Location = new System.Drawing.Point(41, 220);
             this.sinus.Name = "sinus";
             this.sinus.Size = new System.Drawing.Size(66, 23);
             this.sinus.TabIndex = 7;
@@ -130,9 +140,11 @@
             // logarithm
             // 
             this.logarithm.BackColor = System.Drawing.Color.Violet;
-            this.logarithm.Location = new System.Drawing.Point(199, 128);
+            this.logarithm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.logarithm.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.logarithm.Location = new System.Drawing.Point(41, 247);
             this.logarithm.Name = "logarithm";
-            this.logarithm.Size = new System.Drawing.Size(63, 25);
+            this.logarithm.Size = new System.Drawing.Size(66, 25);
             this.logarithm.TabIndex = 8;
             this.logarithm.Text = "log";
             this.logarithm.UseVisualStyleBackColor = false;
@@ -141,9 +153,11 @@
             // TwoToThePowerOf
             // 
             this.TwoToThePowerOf.BackColor = System.Drawing.Color.Violet;
-            this.TwoToThePowerOf.Location = new System.Drawing.Point(41, 128);
+            this.TwoToThePowerOf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.TwoToThePowerOf.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.TwoToThePowerOf.Location = new System.Drawing.Point(41, 130);
             this.TwoToThePowerOf.Name = "TwoToThePowerOf";
-            this.TwoToThePowerOf.Size = new System.Drawing.Size(63, 23);
+            this.TwoToThePowerOf.Size = new System.Drawing.Size(66, 23);
             this.TwoToThePowerOf.TabIndex = 9;
             this.TwoToThePowerOf.Text = "2^x";
             this.TwoToThePowerOf.UseVisualStyleBackColor = false;
@@ -152,9 +166,11 @@
             // XToThePowerOfTwo
             // 
             this.XToThePowerOfTwo.BackColor = System.Drawing.Color.Violet;
+            this.XToThePowerOfTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.XToThePowerOfTwo.ForeColor = System.Drawing.SystemColors.ControlText;
             this.XToThePowerOfTwo.Location = new System.Drawing.Point(41, 159);
             this.XToThePowerOfTwo.Name = "XToThePowerOfTwo";
-            this.XToThePowerOfTwo.Size = new System.Drawing.Size(63, 26);
+            this.XToThePowerOfTwo.Size = new System.Drawing.Size(66, 26);
             this.XToThePowerOfTwo.TabIndex = 10;
             this.XToThePowerOfTwo.Text = "x^2";
             this.XToThePowerOfTwo.UseVisualStyleBackColor = false;
@@ -163,9 +179,11 @@
             // Square
             // 
             this.Square.BackColor = System.Drawing.Color.Violet;
+            this.Square.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Square.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Square.Location = new System.Drawing.Point(41, 191);
             this.Square.Name = "Square";
-            this.Square.Size = new System.Drawing.Size(63, 23);
+            this.Square.Size = new System.Drawing.Size(66, 23);
             this.Square.TabIndex = 11;
             this.Square.Text = "square ";
             this.Square.UseVisualStyleBackColor = false;
@@ -174,7 +192,9 @@
             // RemainderOfTheDivision
             // 
             this.RemainderOfTheDivision.BackColor = System.Drawing.Color.Violet;
-            this.RemainderOfTheDivision.Location = new System.Drawing.Point(41, 220);
+            this.RemainderOfTheDivision.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.RemainderOfTheDivision.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.RemainderOfTheDivision.Location = new System.Drawing.Point(199, 128);
             this.RemainderOfTheDivision.Name = "RemainderOfTheDivision";
             this.RemainderOfTheDivision.Size = new System.Drawing.Size(63, 23);
             this.RemainderOfTheDivision.TabIndex = 12;
@@ -185,6 +205,8 @@
             // Cosinus
             // 
             this.Cosinus.BackColor = System.Drawing.Color.Violet;
+            this.Cosinus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Cosinus.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Cosinus.Location = new System.Drawing.Point(123, 220);
             this.Cosinus.Name = "Cosinus";
             this.Cosinus.Size = new System.Drawing.Size(66, 23);
@@ -196,9 +218,11 @@
             // Tangent
             // 
             this.Tangent.BackColor = System.Drawing.Color.Violet;
-            this.Tangent.Location = new System.Drawing.Point(199, 220);
+            this.Tangent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Tangent.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Tangent.Location = new System.Drawing.Point(123, 249);
             this.Tangent.Name = "Tangent";
-            this.Tangent.Size = new System.Drawing.Size(63, 23);
+            this.Tangent.Size = new System.Drawing.Size(66, 23);
             this.Tangent.TabIndex = 14;
             this.Tangent.Text = "Tg";
             this.Tangent.UseVisualStyleBackColor = false;
@@ -207,9 +231,11 @@
             // ModuleOfX
             // 
             this.ModuleOfX.BackColor = System.Drawing.Color.Violet;
-            this.ModuleOfX.Location = new System.Drawing.Point(41, 249);
+            this.ModuleOfX.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ModuleOfX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ModuleOfX.Location = new System.Drawing.Point(123, 128);
             this.ModuleOfX.Name = "ModuleOfX";
-            this.ModuleOfX.Size = new System.Drawing.Size(63, 23);
+            this.ModuleOfX.Size = new System.Drawing.Size(66, 23);
             this.ModuleOfX.TabIndex = 15;
             this.ModuleOfX.Text = "|x|";
             this.ModuleOfX.UseVisualStyleBackColor = false;
@@ -218,9 +244,11 @@
             // Arcsine
             // 
             this.Arcsine.BackColor = System.Drawing.Color.Violet;
-            this.Arcsine.Location = new System.Drawing.Point(123, 249);
+            this.Arcsine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Arcsine.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Arcsine.Location = new System.Drawing.Point(199, 220);
             this.Arcsine.Name = "Arcsine";
-            this.Arcsine.Size = new System.Drawing.Size(66, 23);
+            this.Arcsine.Size = new System.Drawing.Size(62, 23);
             this.Arcsine.TabIndex = 16;
             this.Arcsine.Text = "asin";
             this.Arcsine.UseVisualStyleBackColor = false;
@@ -229,6 +257,8 @@
             // Arccosine
             // 
             this.Arccosine.BackColor = System.Drawing.Color.Violet;
+            this.Arccosine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Arccosine.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Arccosine.Location = new System.Drawing.Point(199, 249);
             this.Arccosine.Name = "Arccosine";
             this.Arccosine.Size = new System.Drawing.Size(63, 23);
@@ -240,9 +270,11 @@
             // Arctangent
             // 
             this.Arctangent.BackColor = System.Drawing.Color.Violet;
-            this.Arctangent.Location = new System.Drawing.Point(41, 278);
+            this.Arctangent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Arctangent.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Arctangent.Location = new System.Drawing.Point(123, 278);
             this.Arctangent.Name = "Arctangent";
-            this.Arctangent.Size = new System.Drawing.Size(63, 23);
+            this.Arctangent.Size = new System.Drawing.Size(66, 23);
             this.Arctangent.TabIndex = 18;
             this.Arctangent.Text = "atan";
             this.Arctangent.UseVisualStyleBackColor = false;
@@ -251,7 +283,9 @@
             // DecimalLogarithm
             // 
             this.DecimalLogarithm.BackColor = System.Drawing.Color.Violet;
-            this.DecimalLogarithm.Location = new System.Drawing.Point(123, 278);
+            this.DecimalLogarithm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.DecimalLogarithm.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DecimalLogarithm.Location = new System.Drawing.Point(41, 278);
             this.DecimalLogarithm.Name = "DecimalLogarithm";
             this.DecimalLogarithm.Size = new System.Drawing.Size(66, 23);
             this.DecimalLogarithm.TabIndex = 19;
@@ -262,6 +296,8 @@
             // HyperbolicCosine
             // 
             this.HyperbolicCosine.BackColor = System.Drawing.Color.Violet;
+            this.HyperbolicCosine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.HyperbolicCosine.ForeColor = System.Drawing.SystemColors.ControlText;
             this.HyperbolicCosine.Location = new System.Drawing.Point(199, 278);
             this.HyperbolicCosine.Name = "HyperbolicCosine";
             this.HyperbolicCosine.Size = new System.Drawing.Size(63, 23);
@@ -276,7 +312,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(298, 326);
+            this.ClientSize = new System.Drawing.Size(298, 307);
             this.Controls.Add(this.HyperbolicCosine);
             this.Controls.Add(this.DecimalLogarithm);
             this.Controls.Add(this.Arctangent);
