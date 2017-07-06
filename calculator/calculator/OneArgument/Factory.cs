@@ -4,7 +4,7 @@ using System;
 namespace calculator
 {
     /// <summary>
-    /// Create a class that groups methods
+    /// Creating a class that groups methods
     /// </summary>
     class Factory
     {

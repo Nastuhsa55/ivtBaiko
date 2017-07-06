@@ -2,6 +2,9 @@
 
 namespace calculator
 {
+    /// <summary>
+    /// Creating a class that groups methods
+    /// </summary>
     public class CalculatorFactory
     {
         public static ICalculator CreateCalculator(string name)

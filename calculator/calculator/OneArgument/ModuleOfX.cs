@@ -3,7 +3,7 @@
 namespace calculator.OneArgument
 {
     /// <summary>
-    /// Create a class that computes the module
+    /// Creating a class that computes the module
     /// </summary>
     class ModuleOfX : ICanculator2
     {

@@ -3,7 +3,7 @@
 namespace calculator.OneArgument
 {
     /// <summary>
-    /// Create a class that computes the tangent 
+    /// Creating a class that computes the tangent 
     /// </summary>
     class Tangent : ICanculator2
     {

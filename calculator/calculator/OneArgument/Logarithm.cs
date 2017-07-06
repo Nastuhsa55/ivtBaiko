@@ -3,7 +3,7 @@
 namespace calculator
 {
     /// <summary>
-    /// Create a class that computes the logarithm
+    /// Creating a class that computes the logarithm
     /// </summary>
     class Logarithm : ICanculator2
     {
