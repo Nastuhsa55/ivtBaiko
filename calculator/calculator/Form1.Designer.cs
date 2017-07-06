@@ -53,7 +53,7 @@
             // 
             // plus
             // 
-            this.plus.BackColor = System.Drawing.Color.Yellow;
+            this.plus.BackColor = System.Drawing.Color.Violet;
             this.plus.Location = new System.Drawing.Point(123, 159);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(66, 26);
@@ -64,7 +64,7 @@
             // 
             // minus
             // 
-            this.minus.BackColor = System.Drawing.Color.Yellow;
+            this.minus.BackColor = System.Drawing.Color.Violet;
             this.minus.Location = new System.Drawing.Point(123, 191);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(66, 23);
@@ -75,7 +75,7 @@
             // 
             // multiplication
             // 
-            this.multiplication.BackColor = System.Drawing.Color.Yellow;
+            this.multiplication.BackColor = System.Drawing.Color.Violet;
             this.multiplication.Location = new System.Drawing.Point(199, 159);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(63, 26);
@@ -86,7 +86,7 @@
             // 
             // division
             // 
-            this.division.BackColor = System.Drawing.Color.Yellow;
+            this.division.BackColor = System.Drawing.Color.Violet;
             this.division.Location = new System.Drawing.Point(199, 191);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(63, 23);
@@ -118,7 +118,7 @@
             // 
             // sinus
             // 
-            this.sinus.BackColor = System.Drawing.Color.Yellow;
+            this.sinus.BackColor = System.Drawing.Color.Violet;
             this.sinus.Location = new System.Drawing.Point(123, 128);
             this.sinus.Name = "sinus";
             this.sinus.Size = new System.Drawing.Size(66, 23);
@@ -129,7 +129,7 @@
             // 
             // logarithm
             // 
-            this.logarithm.BackColor = System.Drawing.Color.Yellow;
+            this.logarithm.BackColor = System.Drawing.Color.Violet;
             this.logarithm.Location = new System.Drawing.Point(199, 128);
             this.logarithm.Name = "logarithm";
             this.logarithm.Size = new System.Drawing.Size(63, 25);
@@ -140,7 +140,7 @@
             // 
             // TwoToThePowerOf
             // 
-            this.TwoToThePowerOf.BackColor = System.Drawing.Color.Yellow;
+            this.TwoToThePowerOf.BackColor = System.Drawing.Color.Violet;
             this.TwoToThePowerOf.Location = new System.Drawing.Point(41, 128);
             this.TwoToThePowerOf.Name = "TwoToThePowerOf";
             this.TwoToThePowerOf.Size = new System.Drawing.Size(63, 23);
@@ -151,7 +151,7 @@
             // 
             // XToThePowerOfTwo
             // 
-            this.XToThePowerOfTwo.BackColor = System.Drawing.Color.Yellow;
+            this.XToThePowerOfTwo.BackColor = System.Drawing.Color.Violet;
             this.XToThePowerOfTwo.Location = new System.Drawing.Point(41, 159);
             this.XToThePowerOfTwo.Name = "XToThePowerOfTwo";
             this.XToThePowerOfTwo.Size = new System.Drawing.Size(63, 26);
@@ -162,7 +162,7 @@
             // 
             // Square
             // 
-            this.Square.BackColor = System.Drawing.Color.Yellow;
+            this.Square.BackColor = System.Drawing.Color.Violet;
             this.Square.Location = new System.Drawing.Point(41, 191);
             this.Square.Name = "Square";
             this.Square.Size = new System.Drawing.Size(63, 23);
@@ -173,7 +173,7 @@
             // 
             // RemainderOfTheDivision
             // 
-            this.RemainderOfTheDivision.BackColor = System.Drawing.Color.Yellow;
+            this.RemainderOfTheDivision.BackColor = System.Drawing.Color.Violet;
             this.RemainderOfTheDivision.Location = new System.Drawing.Point(41, 220);
             this.RemainderOfTheDivision.Name = "RemainderOfTheDivision";
             this.RemainderOfTheDivision.Size = new System.Drawing.Size(63, 23);
@@ -184,7 +184,7 @@
             // 
             // Cosinus
             // 
-            this.Cosinus.BackColor = System.Drawing.Color.Yellow;
+            this.Cosinus.BackColor = System.Drawing.Color.Violet;
             this.Cosinus.Location = new System.Drawing.Point(123, 220);
             this.Cosinus.Name = "Cosinus";
             this.Cosinus.Size = new System.Drawing.Size(66, 23);
@@ -195,7 +195,7 @@
             // 
             // Tangent
             // 
-            this.Tangent.BackColor = System.Drawing.Color.Yellow;
+            this.Tangent.BackColor = System.Drawing.Color.Violet;
             this.Tangent.Location = new System.Drawing.Point(199, 220);
             this.Tangent.Name = "Tangent";
             this.Tangent.Size = new System.Drawing.Size(63, 23);
@@ -206,7 +206,7 @@
             // 
             // ModuleOfX
             // 
-            this.ModuleOfX.BackColor = System.Drawing.Color.Yellow;
+            this.ModuleOfX.BackColor = System.Drawing.Color.Violet;
             this.ModuleOfX.Location = new System.Drawing.Point(41, 249);
             this.ModuleOfX.Name = "ModuleOfX";
             this.ModuleOfX.Size = new System.Drawing.Size(63, 23);
@@ -217,7 +217,7 @@
             // 
             // Arcsine
             // 
-            this.Arcsine.BackColor = System.Drawing.Color.Yellow;
+            this.Arcsine.BackColor = System.Drawing.Color.Violet;
             this.Arcsine.Location = new System.Drawing.Point(123, 249);
             this.Arcsine.Name = "Arcsine";
             this.Arcsine.Size = new System.Drawing.Size(66, 23);
@@ -228,7 +228,7 @@
             // 
             // Arccosine
             // 
-            this.Arccosine.BackColor = System.Drawing.Color.Yellow;
+            this.Arccosine.BackColor = System.Drawing.Color.Violet;
             this.Arccosine.Location = new System.Drawing.Point(199, 249);
             this.Arccosine.Name = "Arccosine";
             this.Arccosine.Size = new System.Drawing.Size(63, 23);
@@ -239,7 +239,7 @@
             // 
             // Arctangent
             // 
-            this.Arctangent.BackColor = System.Drawing.Color.Yellow;
+            this.Arctangent.BackColor = System.Drawing.Color.Violet;
             this.Arctangent.Location = new System.Drawing.Point(41, 278);
             this.Arctangent.Name = "Arctangent";
             this.Arctangent.Size = new System.Drawing.Size(63, 23);
@@ -250,7 +250,7 @@
             // 
             // DecimalLogarithm
             // 
-            this.DecimalLogarithm.BackColor = System.Drawing.Color.Yellow;
+            this.DecimalLogarithm.BackColor = System.Drawing.Color.Violet;
             this.DecimalLogarithm.Location = new System.Drawing.Point(123, 278);
             this.DecimalLogarithm.Name = "DecimalLogarithm";
             this.DecimalLogarithm.Size = new System.Drawing.Size(66, 23);
@@ -261,7 +261,7 @@
             // 
             // HyperbolicCosine
             // 
-            this.HyperbolicCosine.BackColor = System.Drawing.Color.Yellow;
+            this.HyperbolicCosine.BackColor = System.Drawing.Color.Violet;
             this.HyperbolicCosine.Location = new System.Drawing.Point(199, 278);
             this.HyperbolicCosine.Name = "HyperbolicCosine";
             this.HyperbolicCosine.Size = new System.Drawing.Size(63, 23);
@@ -274,7 +274,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(298, 326);
             this.Controls.Add(this.HyperbolicCosine);
             this.Controls.Add(this.DecimalLogarithm);
@@ -300,7 +301,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-       //     this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
