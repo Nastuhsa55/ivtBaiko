@@ -2,7 +2,10 @@
 
 namespace calculator.OneArgument
 {
-    class Tangent: ICanculator2
+    /// <summary>
+    /// Create a class that computes the tangent 
+    /// </summary>
+    class Tangent : ICanculator2
     {
         public double Calculate(double first)
         {

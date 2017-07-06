@@ -3,6 +3,9 @@ using System;
 
 namespace calculator
 {
+    /// <summary>
+    /// Create a class that groups methods
+    /// </summary>
     class Factory
     {
         public static ICanculator2 CreateCalculator(string name)

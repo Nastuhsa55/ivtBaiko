@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace calculator.OneArgument
 {
+    /// <summary>
+    /// Arccosine computation 
+    /// </summary>
     class Arccosine : ICanculator2
     {
         public double Calculate(double first)
